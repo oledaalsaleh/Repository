@@ -1,0 +1,19 @@
+name: Auto Update Offers
+on:
+  schedule:
+    - cron: '0 2 * * *' # يعمل تلقائياً كل يوم الساعة 2 صباحاً بتوقيت تركيا
+  workflow_dispatch: # يتيح لك تشغيل الكشط يدوياً في أي وقت بضغطة زر
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - name: Install Libraries
+      run: pip install requests beautifulsoup4 firebase-admin
+    - name: Run Scraper
+      run: python scraper.py
