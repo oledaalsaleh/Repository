@@ -5,15 +5,18 @@ from firebase_admin import credentials, firestore
 from datetime import datetime
 import re
 
-# 1. الاتصال بقاعدة بيانات Firebase
+db = None
 try:
-    cred = credentials.Certificate('serviceAccountKey.json')
-    firebase_admin.initialize_app(cred)
-    db = firestore.client()
-    print("⚡ تم الاتصال بقاعدة بيانات Firebase بنجاح!")
+    if os.path.exists('serviceAccountKey.json'):
+        cred = credentials.Certificate('serviceAccountKey.json')
+        firebase_admin.initialize_app(cred)
+        db = firestore.client()
+        print("⚡ تم الاتصال بقاعدة بيانات Firebase بنجاح!")
+    else:
+        print("ℹ️ ملف serviceAccountKey.json غير موجود، سيتم الحفظ محلياً في offers.json فقط.")
 except Exception as e:
-    print(f"❌ خطأ في الاتصال بـ Firebase: {e}")
-    exit()
+    print(f"⚠️ خطأ في الاتصال بـ Firebase: {e}")
+
 
 # إعداد الـ Headers لتجنب الحظر من المواقع التركية
 HEADERS = {
@@ -21,25 +24,35 @@ HEADERS = {
     "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7"
 }
 
+import json
+import os
+
+all_scraped_items = []
+
 def save_to_firebase(store_name, title, img_url):
-    """دالة مساعدة لحفظ العروض في الفايربيس ومنع التكرار"""
+    """دالة مساعدة لحفظ العروض في الفايربيس وتجميعها في ملف JSON"""
     try:
         if not img_url:
             return
             
-        # إنشاء ID فريد للمستند بناءً على اسم المتجر ورابط الصورة لمنع التكرار
         clean_url = re.sub(r'[^a-zA-Z0-9]', '_', img_url.split('/')[-1])
         doc_id = f"{store_name.lower()}_{clean_url}"
         
-        data = {
+        item_data = {
+            "id": doc_id,
             "store": store_name,
             "title": title,
             "image_url": img_url,
             "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
         
-        db.collection("all_offers").document(doc_id).set(data)
-        print(f"✅ [{store_name}] تم حفظ: {title}")
+        all_scraped_items.append(item_data)
+        
+        if db:
+            db.collection("all_offers").document(doc_id).set(item_data)
+            print(f"✅ [{store_name}] تم حفظ: {title}")
+        else:
+            print(f"📦 [{store_name}] تم التقاط: {title}")
     except Exception as e:
         print(f"⚠️ خطأ أثناء حفظ عنصر لـ {store_name}: {e}")
 
@@ -67,18 +80,15 @@ def scrape_bim():
 # ─────────────── 2. كشط عروض A101 ───────────────
 def scrape_a101():
     print("\n🔍 جاري سحب عروض متجر A101...")
-    # نستخدم الصفحة المباشرة للكتالوجات والبروشورات الرسمية لضمان الاستقرار
     url = "https://www.a101.com.tr"
     try:
         response = requests.get(url, headers=HEADERS, timeout=15)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            # البحث عن بنرات حملة "Aldın Aldın" المشهورة لعروض A101
             images = soup.find_all('img')
             count = 1
             for img in images:
                 src = img.get('src', '')
-                # الفلترة للوصول لصور الكتالوجات فقط وتجنب صور المنتجات الصغيرة
                 if 'aldin-aldin' in src.lower() or 'katalog' in src.lower() or 'brosur' in src.lower():
                     if not src.startswith('http'):
                         src = "https:" + src if src.startswith('//') else "https://www.a101.com.tr" + src
@@ -97,7 +107,6 @@ def scrape_sok():
         response = requests.get(url, headers=HEADERS, timeout=15)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            # البحث عن الصور داخل قسم عروض الأسبوع في موقع شوك ماركت
             images = soup.find_all('img')
             count = 1
             for img in images:
@@ -112,10 +121,21 @@ def scrape_sok():
     except Exception as e:
         print(f"💥 خطأ في كشط ŞOK: {e}")
 
+def save_json_file():
+    """حفظ كافة العروض المسحوبة في ملف offers.json"""
+    try:
+        with open("offers.json", "w", encoding="utf-8") as f:
+            json.dump(all_scraped_items, f, ensure_ascii=False, indent=2)
+        print(f"\n📁 تم حفظ {len(all_scraped_items)} عرضاً بنجاح في ملف offers.json!")
+    except Exception as e:
+        print(f"⚠️ خطأ أثناء حفظ ملف offers.json: {e}")
+
 # 🚀 تشغيل الكاشط لجميع المتاجر متتالية
 if __name__ == "__main__":
     print("🎬 بدء تشغيل نظام جلب العروض التلقائي الشامل...")
     scrape_bim()
     scrape_a101()
     scrape_sok()
+    save_json_file()
     print("\n🏁 تم الانتهاء من تحديث كافة المتاجر بنجاح!")
+

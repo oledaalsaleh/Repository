@@ -4,16 +4,30 @@ on:
     - cron: '0 2 * * *' # يعمل تلقائياً كل يوم الساعة 2 صباحاً بتوقيت تركيا
   workflow_dispatch: # يتيح لك تشغيل الكشط يدوياً في أي وقت بضغطة زر
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+        
     - name: Install Libraries
       run: pip install requests beautifulsoup4 firebase-admin
+      
     - name: Run Scraper
       run: python scraper.py
+      
+    - name: Commit and Push offers.json
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add offers.json
+        git commit -m "Auto update offers.json [skip ci]" || echo "No changes to commit"
+        git push
