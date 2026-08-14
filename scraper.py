@@ -1,3 +1,6 @@
+import sys
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
 import requests
 from bs4 import BeautifulSoup
 import firebase_admin
@@ -7,20 +10,19 @@ import re
 import json
 import os
 
-# 1. الاتصال بقاعدة بيانات Firebase (اختياري وآمن)
+# 1. الاتصال بقاعدة بيانات Firebase (اختياري)
 db = None
 try:
     if os.path.exists('serviceAccountKey.json'):
         cred = credentials.Certificate('serviceAccountKey.json')
         firebase_admin.initialize_app(cred)
         db = firestore.client()
-        print("⚡ تم الاتصال بقاعدة بيانات Firebase بنجاح!")
+        print("⚡ تم الاتصال بقاعدة بيانات Firebase بنجاح!", flush=True)
     else:
-        print("ℹ️ ملف serviceAccountKey.json غير موجود، سيتم الحفظ محلياً في offers.json فقط.")
+        print("ℹ️ ملف serviceAccountKey.json غير موجود، سيتم الحفظ محلياً في offers.json فقط.", flush=True)
 except Exception as e:
-    print(f"⚠️ خطأ في الاتصال بـ Firebase: {e}")
+    print(f"⚠️ خطأ في الاتصال بـ Firebase: {e}", flush=True)
 
-# إعداد الـ Headers لتجنب الحظر
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7",
@@ -28,13 +30,15 @@ HEADERS = {
 }
 
 all_scraped_items = []
+seen_images = set()
 
 def save_offer(store_name, title, img_url, valid_date="Güncel"):
-    """دالة مساعدة لحفظ العروض في الفايربيس وقائمة JSON"""
+    """دالة حفظ العروض واستخراج الصور عالية الدقة"""
     try:
-        if not img_url:
+        if not img_url or img_url in seen_images:
             return
             
+        seen_images.add(img_url)
         clean_url = re.sub(r'[^a-zA-Z0-9]', '_', img_url.split('/')[-1])
         doc_id = f"{store_name.lower()}_{clean_url}"
         
@@ -48,135 +52,116 @@ def save_offer(store_name, title, img_url, valid_date="Güncel"):
         }
         
         all_scraped_items.append(item_data)
-        
-        if db:
-            db.collection("all_offers").document(doc_id).set(item_data)
-            print(f"✅ [{store_name}] تم حفظ: {title}")
-        else:
-            print(f"📦 [{store_name}] تم التقاط: {title}")
+        print(f"📸 [{store_name}] تم التقاط الكتالوج: {title}", flush=True)
     except Exception as e:
-        print(f"⚠️ خطأ أثناء حفظ عنصر لـ {store_name}: {e}")
+        print(f"⚠️ خطأ أثناء حفظ عنصر لـ {store_name}: {e}", flush=True)
 
-# ─────────────── 1. كشط عروض BİM (الموقع الرسمي + الكتالوجات) ───────────────
-def scrape_bim():
-    print("\n🔍 [1/5] جاري سحب عروض متجر BİM...")
-    urls = [
-        ("https://www.bim.com.tr/Categories/100/aktuel-urunler.aspx", "عروض بيم الرسمية"),
-        ("https://www.bim.com.tr/Categories/103/akilli-alisveris.aspx", "عروض بيم الذكية")
-    ]
-    for url, default_title in urls:
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=15)
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                offers = soup.find_all('div', class_='sub_brochure')
-                for i, offer in enumerate(offers, 1):
-                    img_node = offer.find('img')
-                    if img_node and img_node.get('src'):
-                        src = img_node['src']
-                        img_url = src if src.startswith('http') else "https://www.bim.com.tr" + src
-                        h2_node = offer.find('h2')
-                        title = h2_node.text.strip() if h2_node else f"{default_title} - صفحة {i}"
-                        save_offer("BİM", title, img_url)
-        except Exception as e:
-            print(f"💥 خطأ في كشط BİM ({url}): {e}")
-
-# ─────────────── 2. كشط عروض A101 ───────────────
-def scrape_a101():
-    print("\n🔍 [2/5] جاري سحب عروض متجر A101 (Aldın Aldın)...")
-    url = "https://www.a101.com.tr"
+# ─────────────── 1. سحب كافة الكتالوجات الأسبوعية عالية الدقة ───────────────
+def scrape_all_catalogs():
+    print("\n🔍 [1/3] جاري سحب أحدث الكتالوجات والبروشورات المعتمدة...", flush=True)
+    url = "https://www.aktuelkataloglari.com/"
     try:
         response = requests.get(url, headers=HEADERS, timeout=15)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            images = soup.find_all('img')
-            count = 1
-            for img in images:
+            flyers = soup.find_all('img', class_='flyer-img')
+            for img in flyers:
                 src = img.get('src', '')
-                if 'aldin-aldin' in src.lower() or 'katalog' in src.lower() or 'brosur' in src.lower() or 'afis' in src.lower():
-                    if not src.startswith('http'):
-                        src = "https:" + src if src.startswith('//') else "https://www.a101.com.tr" + src
-                    save_offer("A101", f"كتالوج A101 Aldın Aldın - صفحة {count}", src)
-                    count += 1
+                alt = img.get('alt', 'Aktüel Kataloğu')
+                
+                # تحويل الصورة المصغرة لرابط الصورة الأصلية فائقة الدقة
+                high_res_url = src.replace("-thumbnail.webp", ".webp").replace("-thumbnail.jpg", ".jpg")
+                if not high_res_url.startswith('http'):
+                    high_res_url = "https://www.aktuelkataloglari.com" + high_res_url
+                
+                # تصنيف المتجر
+                alt_lower = alt.lower()
+                store = "Diğer"
+                if "bim" in alt_lower or "/1/1/" in src:
+                    store = "BİM"
+                elif "a101" in alt_lower or "/1/2/" in src:
+                    store = "A101"
+                elif "şok" in alt_lower or "sok" in alt_lower or "/1/10/" in src:
+                    store = "ŞOK"
+                elif "migros" in alt_lower or "/1/19/" in src:
+                    store = "Migros"
+                elif "koop" in alt_lower or "tarım" in alt_lower:
+                    store = "Tarım Kredi"
+                elif "hakmar" in alt_lower:
+                    store = "Hakmar"
+                else:
+                    store = "Aktüel Market"
+                
+                save_offer(store, alt, high_res_url)
     except Exception as e:
-        print(f"💥 خطأ في كشط A101: {e}")
+        print(f"💥 خطأ في سحب الكتالوجات المجمعة: {e}", flush=True)
 
-# ─────────────── 3. كشط عروض ŞOK ───────────────
-def scrape_sok():
-    print("\n🔍 [3/5] جاري سحب عروض متجر ŞOK...")
+# ─────────────── 2. سحب عروض BİM الرسمية المباشرة ───────────────
+def scrape_bim_official():
+    print("\n🔍 [2/3] جاري التحقق من أحدث عروض BİM من السيرفر الرسمي...", flush=True)
+    url = "https://www.bim.com.tr/Categories/100/aktuel-urunler.aspx"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            for i, img in enumerate(soup.find_all('img'), 1):
+                src = img.get('src', '')
+                if 'uploads/aktuel-urunler' in src:
+                    # تحويل لرابط الصورة الكاملة
+                    big_url = src.replace('_kucuk_', '_buyuk_')
+                    alt = img.get('alt') or f"عرض بيم الأسبوعي - صفحة {i}"
+                    save_offer("BİM", alt, big_url)
+    except Exception as e:
+        print(f"💥 خطأ في كشط BİM الرسمي: {e}", flush=True)
+
+# ─────────────── 3. سحب عروض ŞOK الرسمية المباشرة ───────────────
+def scrape_sok_official():
+    print("\n🔍 [3/3] جاري سحب عروض ŞOK الرسمية...", flush=True)
     url = "https://kurumsal.sokmarket.com.tr/haftanin-firsatlari/firsatlar"
     try:
         response = requests.get(url, headers=HEADERS, timeout=15)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            images = soup.find_all('img')
             count = 1
-            for img in images:
+            for img in soup.find_all('img'):
                 src = img.get('src', '')
-                if 'firsat' in src.lower() or 'aktuel' in src.lower() or 'kampanya' in src.lower() or 'hafta' in src.lower():
+                if '/uploads/' in src and src.endswith('.jpg'):
                     if not src.startswith('http'):
                         src = "https://kurumsal.sokmarket.com.tr" + src
-                    save_offer("ŞOK", f"عروض شوك الأسبوعية - صفحة {count}", src)
+                    save_offer("ŞOK", f"عروض شوك ماركت - صفحة {count}", src)
                     count += 1
     except Exception as e:
-        print(f"💥 خطأ في كشط ŞOK: {e}")
-
-# ─────────────── 4. كشط عروض Migros ───────────────
-def scrape_migros():
-    print("\n🔍 [4/5] جاري سحب مجلات عروض Migros (Migroskop)...")
-    url = "https://www.migros.com.tr"
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            images = soup.find_all('img')
-            count = 1
-            for img in images:
-                src = img.get('src', '')
-                if 'migroskop' in src.lower() or 'kampanya' in src.lower() or 'katalog' in src.lower():
-                    if not src.startswith('http'):
-                        src = "https:" + src if src.startswith('//') else "https://www.migros.com.tr" + src
-                    save_offer("Migros", f"مجلة ميجروس Migroskop - صفحة {count}", src)
-                    count += 1
-    except Exception as e:
-        print(f"💥 خطأ في كشط Migros: {e}")
-
-# ─────────────── 5. كشط عروض Tarım Kredi ───────────────
-def scrape_tarim_kredi():
-    print("\n🔍 [5/5] جاري سحب عروض Tarım Kredi...")
-    url = "https://www.tarimkredi.org.tr"
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            images = soup.find_all('img')
-            count = 1
-            for img in images:
-                src = img.get('src', '')
-                if 'indirim' in src.lower() or 'katalog' in src.lower() or 'afis' in src.lower() or 'aktuel' in src.lower():
-                    if not src.startswith('http'):
-                        src = "https:" + src if src.startswith('//') else "https://www.tarimkredi.org.tr" + src
-                    save_offer("Tarım Kredi", f"عروض الائتمان الزراعي - صفحة {count}", src)
-                    count += 1
-    except Exception as e:
-        print(f"💥 خطأ في كشط Tarım Kredi: {e}")
+        print(f"💥 خطأ في كشط ŞOK الرسمي: {e}", flush=True)
 
 def save_json_file():
     """حفظ كافة العروض المسحوبة في ملف offers.json"""
     try:
         with open("offers.json", "w", encoding="utf-8") as f:
             json.dump(all_scraped_items, f, ensure_ascii=False, indent=2)
-        print(f"\n📁 تم بنجاح تصدير وحفظ {len(all_scraped_items)} صفحة عرض في ملف offers.json!")
+        print(f"\n📁 تم بنجاح تصدير وحفظ {len(all_scraped_items)} صفحة عرض في ملف offers.json!", flush=True)
     except Exception as e:
-        print(f"⚠️ خطأ أثناء حفظ ملف offers.json: {e}")
+        print(f"⚠️ خطأ أثناء حفظ ملف offers.json: {e}", flush=True)
+
+def sync_to_firebase():
+    if not db or not all_scraped_items:
+        return
+    print("\n☁️ جاري المزامنة مع Firebase Firestore...", flush=True)
+    try:
+        batch = db.batch()
+        for item in all_scraped_items[:500]:
+            doc_ref = db.collection("all_offers").document(item["id"])
+            batch.set(doc_ref, item)
+        batch.commit()
+        print("⚡ تم تحديث قاعدة بيانات Firebase بنجاح!", flush=True)
+    except Exception as e:
+        print(f"⚠️ تخطي مزامنة Firebase: {e}", flush=True)
 
 # 🚀 تشغيل الكاشط الشامل لجميع المتاجر
 if __name__ == "__main__":
-    print("🎬 بدء تشغيل نظام كشط الكتالوجات والعروض المتقدم...")
-    scrape_bim()
-    scrape_a101()
-    scrape_sok()
-    scrape_migros()
-    scrape_tarim_kredi()
+    print("🎬 بدء تشغيل نظام كشط الكتالوجات والعروض المتقدم...", flush=True)
+    scrape_all_catalogs()
+    scrape_bim_official()
+    scrape_sok_official()
     save_json_file()
-    print("\n🏁 تم الانتهاء من تحديث كافة المتاجر بنجاح!")
+    sync_to_firebase()
+    print("\n🏁 تم الانتهاء من تحديث كافة المتاجر بنجاح!", flush=True)
