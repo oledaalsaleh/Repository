@@ -1,0 +1,616 @@
+{
+  "schema": 2,
+  "generated_at": "2026-10-05T15:37:44",
+  "stores": {
+    "BİM": {
+      "slug": "bim",
+      "color": "#E30613",
+      "status": "ok",
+      "catalogs": 11,
+      "pages": 31,
+      "sources": [
+        "bim_official"
+      ]
+    },
+    "A101": {
+      "slug": "a101",
+      "color": "#00A0E3",
+      "status": "ok",
+      "catalogs": 3,
+      "pages": 14,
+      "sources": [
+        "aktuel_urunler_rss"
+      ]
+    },
+    "ŞOK": {
+      "slug": "sok",
+      "color": "#FFC20E",
+      "status": "ok",
+      "catalogs": 2,
+      "pages": 6,
+      "sources": [
+        "aktuel_urunler_rss"
+      ]
+    }
+  },
+  "catalogs": [
+    {
+      "id": "578359e0e0937762",
+      "store": "BİM",
+      "title": "BİM 13 Ekim Salı Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-13",
+      "valid_to": "2026-10-19",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/dbeb5241-a728-43be-9d22-e92aa6e3754d.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/dbeb5241-a728-43be-9d22-e92aa6e3754d.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/f8702fb3-2ea2-4210-b6f1-707e875e3081.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/e20814a1-c9d7-4543-bd78-dd7fff864fc7.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "fb8952809ac0c86e",
+      "store": "BİM",
+      "title": "BİM 11 Ekim Pazar Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-11",
+      "valid_to": "2026-10-17",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/bac9a7d4-5056-4bf5-9831-896a6859198a.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/bac9a7d4-5056-4bf5-9831-896a6859198a.jpg",
+          "width": 940,
+          "height": 1409
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/23701e32-5c31-434c-8abc-8846772c76ba.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/bc831330-e03b-4954-a263-bc25140120ae.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ad42c2a1-dadc-4012-8787-f2edfc87cfda.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "a053f2188ef99821",
+      "store": "BİM",
+      "title": "BİM 09 Ekim Cuma Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-09",
+      "valid_to": "2026-10-15",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/0281b2c0-e82a-49e4-a27d-ad04e274a1cc.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/0281b2c0-e82a-49e4-a27d-ad04e274a1cc.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ca59d420-d06e-4010-92a1-29a36abead21.jpg",
+          "width": 940,
+          "height": 1409
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/56246fd8-f538-4f25-8de6-07f5a35e111b.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/3ef4a779-9ba7-4a6f-b557-3d8901a9ffd9.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "7529ce04f079774c",
+      "store": "BİM",
+      "title": "BİM 07 Ekim Çarşamba Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-07",
+      "valid_to": "2026-10-13",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/755076dc-733a-482f-b0ba-595a11916276.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/755076dc-733a-482f-b0ba-595a11916276.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "427e6e4b2f89c75d",
+      "store": "BİM",
+      "title": "BİM 06 Ekim Salı Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-06",
+      "valid_to": "2026-10-12",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/742cb3c4-15ab-4ab9-85ba-23cf621c604c.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/742cb3c4-15ab-4ab9-85ba-23cf621c604c.jpg",
+          "width": 940,
+          "height": 1409
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ce852911-558f-4aa7-8567-e7714131647d.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/1cac2861-fdde-4beb-9c2a-819ca2539bbf.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "65e865c15010b6fa",
+      "store": "BİM",
+      "title": "BİM 04 Ekim Pazar Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-04",
+      "valid_to": "2026-10-10",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/1e69b0df-de76-432c-b178-d4d72a3e1276.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/1e69b0df-de76-432c-b178-d4d72a3e1276.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/6d62ab3a-faca-487c-a0df-45d3003c90fb.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/b66def22-6717-472e-adea-c233caf314e3.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "801de8400cf224ac",
+      "store": "BİM",
+      "title": "BİM 02 Ekim Cuma Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-02",
+      "valid_to": "2026-10-08",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/9437106e-792a-4e1b-be56-8e321aad7342.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/9437106e-792a-4e1b-be56-8e321aad7342.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/b744a1ae-50b6-43bd-934f-aabe2babf794.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/6f45d256-1b01-4362-a54a-9c135c26f54c.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "2b0ee523babeae2e",
+      "store": "BİM",
+      "title": "BİM 02-05 Ekim İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-10-02",
+      "valid_to": "2026-10-05",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/f62c0cc6-49c0-439c-bd73-00c8a9731bd6.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/f62c0cc6-49c0-439c-bd73-00c8a9731bd6.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/b60fb13e-eb1c-4464-a51b-d845358247ab.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/abd91fce-b5f9-44f8-a1ba-a1b318a788ae.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/789947e2-2988-4ea3-a1b1-8e7e1b7f010c.jpg",
+          "width": 940,
+          "height": 1175
+        }
+      ]
+    },
+    {
+      "id": "e92531c3215ed61f",
+      "store": "BİM",
+      "title": "BİM 30 Eylül Çarşamba Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-09-30",
+      "valid_to": "2026-10-06",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/313faa19-cb35-4eee-9185-4ae6bc24ea13.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/313faa19-cb35-4eee-9185-4ae6bc24ea13.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "8a2d3a001c2d2a91",
+      "store": "BİM",
+      "title": "BİM 29 Eylül Salı Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-09-29",
+      "valid_to": "2026-10-05",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/ab356c8b-74a7-4395-afa0-f510da0d825a.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ab356c8b-74a7-4395-afa0-f510da0d825a.jpg",
+          "width": 940,
+          "height": 1409
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/108f7fdb-8704-418f-af5d-0aaf251b26a9.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/daac03ad-1bdd-4d91-8a48-0f32d367c48d.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/a593bf80-c476-44db-b4fd-578f0c2736bc.jpg",
+          "width": 940,
+          "height": 1409
+        }
+      ]
+    },
+    {
+      "id": "be15c777dd5291fd",
+      "store": "BİM",
+      "title": "BİM 26 Eylül - 05 Ekim İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-09-26",
+      "valid_to": "2026-10-05",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/3e738fbb-4fb8-47da-aa15-eb9ae0010221.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/3e738fbb-4fb8-47da-aa15-eb9ae0010221.jpg",
+          "width": 940,
+          "height": 1175
+        }
+      ]
+    },
+    {
+      "id": "063d5e9d82683492",
+      "store": "A101",
+      "title": "A101 8 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-10-08",
+      "valid_to": "2026-10-14",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-8-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 5,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-8-Ekim-2026-persembe-katalogu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-8-Ekim-2026-persembe-katalogu-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-8-Ekim-2026-persembe-katalogu-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-8-Ekim-2026-persembe-katalogu-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-8-Ekim-2026-persembe-katalogu-4.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 5,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-8-Ekim-2026-persembe-katalogu-5.webp",
+          "width": 1500,
+          "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "ee01199056aa5e8c",
+      "store": "A101",
+      "title": "A101 3 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-10-03",
+      "valid_to": "2026-10-09",
+      "status": "active",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-3-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-3-Ekim-2026-H-Cumartesi-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-3-Ekim-2026-H-Cumartesi-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-3-Ekim-2026-H-Cumartesi-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-3-Ekim-2026-H-Cumartesi-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-3-Ekim-2026-H-Cumartesi-4.webp",
+          "width": 1500,
+          "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "49bab2366ab91a36",
+      "store": "A101",
+      "title": "A101 1 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-10-01",
+      "valid_to": "2026-10-07",
+      "status": "active",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-1-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 5,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-4.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 5,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-5.webp",
+          "width": 1500,
+          "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "49f5ba5387dd7f50",
+      "store": "ŞOK",
+      "title": "ŞOK 3 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-10-03",
+      "valid_to": "2026-10-09",
+      "status": "active",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-3-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 2,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-3-Ekim-2026-Cumartesi-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-3-Ekim-2026-Cumartesi-1.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-3-Ekim-2026-Cumartesi-2.webp",
+          "width": 1500,
+          "height": 2162
+        }
+      ]
+    },
+    {
+      "id": "6682b03c3f592bfd",
+      "store": "ŞOK",
+      "title": "ŞOK 30 Eylül 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-09-30",
+      "valid_to": "2026-10-06",
+      "status": "active",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-30-eylul-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-05T15:17:25",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/Sok-30-Eylul-2026-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/Sok-30-Eylul-2026-1.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/Sok-30-Eylul-2026-2.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/Sok-30-Eylul-2026-3.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/Sok-30-Eylul-2026-4.webp",
+          "width": 1500,
+          "height": 2163
+        }
+      ]
+    }
+  ]
+}

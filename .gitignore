@@ -8,3 +8,11 @@ __pycache__/
 .venv/
 env/
 venv/
+
+# Secrets — use the FIREBASE_SERVICE_ACCOUNT GitHub secret instead
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+.env
+
+# Harvester atomic-write temp files
+*.json.tmp
