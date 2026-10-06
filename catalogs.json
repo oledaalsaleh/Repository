@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-06T01:01:09",
+  "generated_at": "2026-10-06T18:56:31",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -187,11 +187,11 @@
       "first_seen": "2026-10-05T15:17:25",
       "stale": false,
       "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/742cb3c4-15ab-4ab9-85ba-23cf621c604c.jpg",
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/1439b1fa-6249-414c-88cc-702967a0e089.jpg",
       "pages": [
         {
           "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/742cb3c4-15ab-4ab9-85ba-23cf621c604c.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/1439b1fa-6249-414c-88cc-702967a0e089.jpg",
           "width": 940,
           "height": 1409
         },
@@ -203,7 +203,7 @@
         },
         {
           "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/1cac2861-fdde-4beb-9c2a-819ca2539bbf.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/8a034104-0374-425e-8459-5f84ef966c5f.jpg",
           "width": 940,
           "height": 1410
         }
