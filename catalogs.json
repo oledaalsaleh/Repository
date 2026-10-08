@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-07T16:21:08",
+  "generated_at": "2026-10-08T03:59:29",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 14,
+      "catalogs": 2,
+      "pages": 9,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -286,7 +286,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-08",
       "valid_to": "2026-10-14",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/a101-8-ekim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-10-05T15:17:25",
@@ -362,53 +362,6 @@
         {
           "index": 4,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-3-Ekim-2026-H-Cumartesi-4.webp",
-          "width": 1500,
-          "height": 2249
-        }
-      ]
-    },
-    {
-      "id": "49bab2366ab91a36",
-      "store": "A101",
-      "title": "A101 1 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-10-01",
-      "valid_to": "2026-10-07",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/a101-1-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-05T15:17:25",
-      "stale": false,
-      "page_count": 5,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-1.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-2.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-3.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-4.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 5,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/09/A101-1-Ekim-2026-katalogu-5.webp",
           "width": 1500,
           "height": 2249
         }
