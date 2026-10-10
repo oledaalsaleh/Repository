@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-10T03:49:45",
+  "generated_at": "2026-10-11T00:43:02",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 10,
-      "pages": 32,
+      "catalogs": 9,
+      "pages": 29,
       "sources": [
         "bim_official"
       ]
@@ -134,7 +134,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-11",
       "valid_to": "2026-10-17",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-05T15:17:25",
@@ -356,41 +356,6 @@
         {
           "index": 3,
           "url": "https://cdn1.bim.com.tr/uploads/afisler/fd4c991f-3d98-43ea-af6d-97412ca2cecd.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
-      "id": "65e865c15010b6fa",
-      "store": "BİM",
-      "title": "BİM 04 Ekim Pazar Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-04",
-      "valid_to": "2026-10-10",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-05T15:17:25",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/1e69b0df-de76-432c-b178-d4d72a3e1276.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/1e69b0df-de76-432c-b178-d4d72a3e1276.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/6d62ab3a-faca-487c-a0df-45d3003c90fb.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/b66def22-6717-472e-adea-c233caf314e3.jpg",
           "width": 940,
           "height": 1410
         }
