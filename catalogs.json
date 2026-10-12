@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-12T13:46:55",
+  "generated_at": "2026-10-13T00:16:17",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 11,
-      "pages": 33,
+      "catalogs": 9,
+      "pages": 24,
       "sources": [
         "bim_official"
       ]
@@ -139,7 +139,7 @@
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-09T13:31:29",
       "stale": false,
-      "page_count": 1,
+      "page_count": 2,
       "cover": "https://cdn1.bim.com.tr/uploads/afisler/f4ec6552-9b62-459a-9faa-821915893efa.jpg",
       "pages": [
         {
@@ -147,6 +147,12 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/f4ec6552-9b62-459a-9faa-821915893efa.jpg",
           "width": 940,
           "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/f2b1065f-5c33-438b-a04b-f7262db6438a.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
@@ -157,7 +163,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-13",
       "valid_to": "2026-10-19",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-05T15:17:25",
@@ -303,65 +309,6 @@
       ]
     },
     {
-      "id": "98b86e0ba02bd277",
-      "store": "BİM",
-      "title": "BİM 09-12 Ekim İndirim",
-      "kind": "indirim",
-      "valid_from": "2026-10-09",
-      "valid_to": "2026-10-12",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-09T13:31:29",
-      "stale": false,
-      "page_count": 7,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/3fc5b2ff-8bad-4e72-b41f-2ea705f63d19.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/3fc5b2ff-8bad-4e72-b41f-2ea705f63d19.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/e55ccd42-4160-48ed-8e72-703dd923e42a.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/282d1fec-e804-45d8-ab03-29998f8092e1.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/8c731782-69fe-4b3d-876a-37ca19c29c79.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 5,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/6da79bd5-7c96-4e03-964a-5f48c41fcf0b.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 6,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/936495b4-b055-47d1-ae5f-88c3983ce99f.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 7,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/b2e8d1de-ad30-45c1-9073-8e01f258c71b.jpg",
-          "width": 940,
-          "height": 1175
-        }
-      ]
-    },
-    {
       "id": "7529ce04f079774c",
       "store": "BİM",
       "title": "BİM 07 Ekim Çarşamba Aktüel Ürünler",
@@ -379,41 +326,6 @@
         {
           "index": 1,
           "url": "https://cdn1.bim.com.tr/uploads/afisler/755076dc-733a-482f-b0ba-595a11916276.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
-      "id": "427e6e4b2f89c75d",
-      "store": "BİM",
-      "title": "BİM 06 Ekim Salı Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-06",
-      "valid_to": "2026-10-12",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-05T15:17:25",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/1439b1fa-6249-414c-88cc-702967a0e089.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/1439b1fa-6249-414c-88cc-702967a0e089.jpg",
-          "width": 940,
-          "height": 1409
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ce852911-558f-4aa7-8567-e7714131647d.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/fd4c991f-3d98-43ea-af6d-97412ca2cecd.jpg",
           "width": 940,
           "height": 1410
         }
