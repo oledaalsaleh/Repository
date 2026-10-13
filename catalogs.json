@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-13T00:16:17",
+  "generated_at": "2026-10-13T22:16:19",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -461,25 +461,25 @@
       "first_seen": "2026-10-11T15:47:50",
       "stale": false,
       "page_count": 3,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-1.webp",
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-Sosyal-Katalog-1.webp",
       "pages": [
         {
           "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-1.webp",
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-Sosyal-Katalog-1.webp",
           "width": 1500,
-          "height": 2117
+          "height": 2163
         },
         {
           "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-2.webp",
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-Sosyal-Katalog-2.webp",
           "width": 1500,
-          "height": 2129
+          "height": 2163
         },
         {
           "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-3.webp",
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-Sosyal-Katalog-3.webp",
           "width": 1500,
-          "height": 2075
+          "height": 2163
         }
       ]
     },
