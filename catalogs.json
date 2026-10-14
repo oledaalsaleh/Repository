@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-13T22:16:19",
+  "generated_at": "2026-10-14T03:17:31",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 9,
-      "pages": 24,
+      "catalogs": 8,
+      "pages": 23,
       "sources": [
         "bim_official"
       ]
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 9,
+      "catalogs": 2,
+      "pages": 5,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -134,7 +134,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-14",
       "valid_to": "2026-10-20",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-09T13:31:29",
@@ -309,29 +309,6 @@
       ]
     },
     {
-      "id": "7529ce04f079774c",
-      "store": "BİM",
-      "title": "BİM 07 Ekim Çarşamba Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-07",
-      "valid_to": "2026-10-13",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-05T15:17:25",
-      "stale": false,
-      "page_count": 1,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/755076dc-733a-482f-b0ba-595a11916276.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/755076dc-733a-482f-b0ba-595a11916276.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
       "id": "2a765fbe28ff2371",
       "store": "A101",
       "title": "A101 15 Ekim 2026 Aktüel Ürünler Kataloğu",
@@ -455,7 +432,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-14",
       "valid_to": "2026-10-20",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-14-ekim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-10-11T15:47:50",
@@ -509,47 +486,6 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-10-Ekim-2026-Katalogu-2.webp",
           "width": 1500,
           "height": 2162
-        }
-      ]
-    },
-    {
-      "id": "b9306ab10b257ccd",
-      "store": "ŞOK",
-      "title": "ŞOK 7 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-10-07",
-      "valid_to": "2026-10-13",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-7-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-06T01:01:09",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-7-Ekim-2026-Aktuel-Carsamba-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-7-Ekim-2026-Aktuel-Carsamba-1.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-7-Ekim-2026-Aktuel-Carsamba-2.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-7-Ekim-2026-Aktuel-Carsamba-3.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-7-Ekim-2026-Aktuel-Carsamba-4.webp",
-          "width": 1500,
-          "height": 2163
         }
       ]
     }
