@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-16T19:38:01",
+  "generated_at": "2026-10-17T00:06:18",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 4,
-      "pages": 13,
+      "catalogs": 3,
+      "pages": 11,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 7,
+      "catalogs": 2,
+      "pages": 5,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -159,6 +159,41 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/949cf8d4-47ef-42f1-8646-694619a281a8.jpg",
           "width": 940,
           "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "aec46aa30e6eb8d3",
+      "store": "BİM",
+      "title": "BİM 17-23 Ekim İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-10-17",
+      "valid_to": "2026-10-23",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-17T00:06:18",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/fb9129ad-72ce-4881-89d9-d53c5c9c3c43.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/fb9129ad-72ce-4881-89d9-d53c5c9c3c43.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/c8153664-4d5e-4499-adba-c91485e735df.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/aeb1220e-975e-4554-beec-9a50beb81799.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
@@ -356,41 +391,6 @@
       ]
     },
     {
-      "id": "0acd374c28bdb255",
-      "store": "BİM",
-      "title": "BİM 10-16 Ekim İndirim",
-      "kind": "indirim",
-      "valid_from": "2026-10-10",
-      "valid_to": "2026-10-16",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-10T03:49:45",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/287ddc3b-5bfc-470d-b984-90c72c0273da.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/287ddc3b-5bfc-470d-b984-90c72c0273da.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/b3f28b4b-8da4-484d-bc63-95af186d9088.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/f4fd0dad-8bc8-49ca-943d-e64bec2dce73.jpg",
-          "width": 940,
-          "height": 1175
-        }
-      ]
-    },
-    {
       "id": "a178adc799a15fde",
       "store": "A101",
       "title": "A101 22 Ekim 2026 Aktüel Ürünler Kataloğu",
@@ -438,7 +438,7 @@
       "kind": "hafta_sonu",
       "valid_from": "2026-10-17",
       "valid_to": "2026-10-23",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/a101-17-ekim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-10-16T19:38:01",
@@ -508,42 +508,13 @@
       ]
     },
     {
-      "id": "c40caa91390f1b12",
-      "store": "A101",
-      "title": "A101 10 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "hafta_sonu",
-      "valid_from": "2026-10-10",
-      "valid_to": "2026-10-16",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/a101-10-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-09T21:21:10",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-10-Ekim-2026-cumartesi-katalog-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-10-Ekim-2026-cumartesi-katalog-1.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-10-Ekim-2026-cumartesi-katalog-2.webp",
-          "width": 1500,
-          "height": 2249
-        }
-      ]
-    },
-    {
       "id": "40d5387ba1385383",
       "store": "ŞOK",
       "title": "ŞOK 17 Ekim 2026 Aktüel Ürünler Kataloğu",
       "kind": "hafta_sonu",
       "valid_from": "2026-10-17",
       "valid_to": "2026-10-23",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-17-ekim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-10-16T19:38:01",
@@ -597,35 +568,6 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-14-Ekim-2026-Sosyal-Katalog-3.webp",
           "width": 1500,
           "height": 2163
-        }
-      ]
-    },
-    {
-      "id": "10787e033d18e108",
-      "store": "ŞOK",
-      "title": "ŞOK 10 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "hafta_sonu",
-      "valid_from": "2026-10-10",
-      "valid_to": "2026-10-16",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-10-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-09T21:21:10",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-10-Ekim-2026-Katalogu-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-10-Ekim-2026-Katalogu-1.webp",
-          "width": 1500,
-          "height": 2162
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-10-Ekim-2026-Katalogu-2.webp",
-          "width": 1500,
-          "height": 2162
         }
       ]
     }
