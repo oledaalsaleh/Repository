@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-17T00:06:18",
+  "generated_at": "2026-10-18T02:07:44",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
       "catalogs": 10,
-      "pages": 31,
+      "pages": 33,
       "sources": [
         "bim_official"
       ]
@@ -34,6 +34,59 @@
     }
   },
   "catalogs": [
+    {
+      "id": "79102936e9b2f80d",
+      "store": "BİM",
+      "title": "BİM 25 Ekim Pazar Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-10-25",
+      "valid_to": "2026-10-31",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-10-18T02:07:44",
+      "stale": false,
+      "page_count": 6,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/c5fb6d5f-134c-4706-9830-58b2cd7bd575.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/c5fb6d5f-134c-4706-9830-58b2cd7bd575.jpg",
+          "width": 940,
+          "height": 1409
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/bdbc5aa9-e718-4914-9fb8-7b0b99859fae.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/2790dffb-7140-4259-9a3e-fb7b6bc472a7.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/4b0bc1f7-1992-4c77-b06a-728d65f7de95.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 5,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/68c71332-46f6-46e4-afee-d0b8f30d8af7.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 6,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/e821c9a5-62a3-443a-bd2e-bd1e8a9ec40a.jpg",
+          "width": 940,
+          "height": 1409
+        }
+      ]
+    },
     {
       "id": "5b957c1fbb59cce5",
       "store": "BİM",
@@ -128,7 +181,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-18",
       "valid_to": "2026-10-24",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-15T19:59:40",
@@ -344,47 +397,6 @@
         {
           "index": 3,
           "url": "https://cdn1.bim.com.tr/uploads/afisler/d5d525f4-045c-4917-a9a1-8dc80add7e68.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
-      "id": "fb8952809ac0c86e",
-      "store": "BİM",
-      "title": "BİM 11 Ekim Pazar Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-11",
-      "valid_to": "2026-10-17",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-05T15:17:25",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/92cff1aa-f31c-4f21-82ae-254c514b16a1.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/92cff1aa-f31c-4f21-82ae-254c514b16a1.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/23701e32-5c31-434c-8abc-8846772c76ba.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/bc831330-e03b-4954-a263-bc25140120ae.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ad42c2a1-dadc-4012-8787-f2edfc87cfda.jpg",
           "width": 940,
           "height": 1410
         }
