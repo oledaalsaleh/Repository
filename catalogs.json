@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-22T00:42:00",
+  "generated_at": "2026-10-23T00:34:27",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 10,
-      "pages": 29,
+      "catalogs": 9,
+      "pages": 26,
       "sources": [
         "aktuel_urunler_rss",
         "bim_official"
@@ -188,7 +188,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-23",
       "valid_to": "2026-10-29",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-16T00:22:03",
@@ -341,41 +341,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/aeb1220e-975e-4554-beec-9a50beb81799.jpg",
           "width": 940,
           "height": 1175
-        }
-      ]
-    },
-    {
-      "id": "222ed17ba49054ff",
-      "store": "BİM",
-      "title": "BİM 16 Ekim Cuma Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-16",
-      "valid_to": "2026-10-22",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-09T04:13:25",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/ea2ea3f4-2675-4ca2-92da-4233e64f1d88.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ea2ea3f4-2675-4ca2-92da-4233e64f1d88.jpg",
-          "width": 940,
-          "height": 1409
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/75cf9c5e-2c3a-4a95-842a-e34bd68d38a1.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/5c92c88b-d87e-4928-ab06-c65d874b21d0.jpg",
-          "width": 940,
-          "height": 1410
         }
       ]
     },
