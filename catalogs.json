@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-23T14:36:43",
+  "generated_at": "2026-10-23T20:05:21",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 7,
+      "catalogs": 4,
+      "pages": 16,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -387,6 +387,94 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/aeb1220e-975e-4554-beec-9a50beb81799.jpg",
           "width": 940,
           "height": 1175
+        }
+      ]
+    },
+    {
+      "id": "c3f750988508451e",
+      "store": "A101",
+      "title": "A101 29 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-10-29",
+      "valid_to": "2026-11-04",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-29-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-23T20:05:21",
+      "stale": false,
+      "page_count": 5,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-4.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 5,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-5.webp",
+          "width": 1500,
+          "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "579d9191d3e1adc2",
+      "store": "A101",
+      "title": "A101 24 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-10-24",
+      "valid_to": "2026-10-30",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-24-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-23T20:05:21",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-24-Ekim-2026-Cumartesi-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-24-Ekim-2026-Cumartesi-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-24-Ekim-2026-Cumartesi-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-24-Ekim-2026-Cumartesi-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-24-Ekim-2026-Cumartesi-4.webp",
+          "width": 1500,
+          "height": 2249
         }
       ]
     },
