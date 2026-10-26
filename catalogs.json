@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-26T02:15:55",
+  "generated_at": "2026-10-26T23:29:08",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 6,
+      "catalogs": 3,
+      "pages": 9,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -105,11 +105,11 @@
       "first_seen": "2026-10-25T02:12:45",
       "stale": false,
       "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/e4de40a8-da5a-4579-8df1-23f31dd5cf31.jpg",
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/3dd962d6-262c-4d2a-a232-217c8d16d51d.jpg",
       "pages": [
         {
           "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/e4de40a8-da5a-4579-8df1-23f31dd5cf31.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/3dd962d6-262c-4d2a-a232-217c8d16d51d.jpg",
           "width": 940,
           "height": 1410
         },
@@ -568,6 +568,41 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-22-Ekim-2026-Katalog-Persembe-4.webp",
           "width": 1500,
           "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "d9f5db3d17904d70",
+      "store": "ŞOK",
+      "title": "ŞOK 28 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-10-28",
+      "valid_to": "2026-11-03",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-28-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-26T23:29:08",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-1.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-2.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-3.webp",
+          "width": 1500,
+          "height": 2163
         }
       ]
     },
