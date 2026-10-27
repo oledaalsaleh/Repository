@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-27T11:57:58",
+  "generated_at": "2026-10-28T01:12:46",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 10,
-      "pages": 28,
+      "catalogs": 9,
+      "pages": 27,
       "sources": [
         "bim_official"
       ]
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 9,
+      "catalogs": 2,
+      "pages": 6,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -175,7 +175,7 @@
       "kind": "aktuel",
       "valid_from": "2026-10-28",
       "valid_to": "2026-11-03",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-19T02:11:06",
@@ -350,29 +350,6 @@
       ]
     },
     {
-      "id": "15d54224778eb2c0",
-      "store": "BİM",
-      "title": "BİM 21 Ekim Çarşamba Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-21",
-      "valid_to": "2026-10-27",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-12T03:31:49",
-      "stale": false,
-      "page_count": 1,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/8dfa3b5a-422f-457b-930d-64a2c2ed953f.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/8dfa3b5a-422f-457b-930d-64a2c2ed953f.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
       "id": "c3f750988508451e",
       "store": "A101",
       "title": "A101 29 Ekim 2026 Aktüel Ürünler Kataloğu",
@@ -508,12 +485,12 @@
       "kind": "aktuel",
       "valid_from": "2026-10-28",
       "valid_to": "2026-11-03",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-28-ekim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-10-26T23:29:08",
       "stale": false,
-      "page_count": 3,
+      "page_count": 4,
       "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-1.webp",
       "pages": [
         {
@@ -531,6 +508,12 @@
         {
           "index": 3,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-3.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-4.webp",
           "width": 1500,
           "height": 2163
         }
@@ -562,47 +545,6 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-24-Ekim-2026-Cumartesi-Kataloglari-2.webp",
           "width": 1500,
           "height": 2162
-        }
-      ]
-    },
-    {
-      "id": "6b38b126b1a0537a",
-      "store": "ŞOK",
-      "title": "ŞOK 21 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-10-21",
-      "valid_to": "2026-10-27",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-21-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-19T23:35:20",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-21-Ekim-2026-Katalog-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-21-Ekim-2026-Katalog-1.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-21-Ekim-2026-Katalog-2.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-21-Ekim-2026-Katalog-3.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-21-Ekim-2026-Katalog-4.webp",
-          "width": 1500,
-          "height": 2163
         }
       ]
     }
