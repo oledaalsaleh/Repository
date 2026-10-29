@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-29T03:54:34",
+  "generated_at": "2026-10-29T21:27:52",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 6,
+      "catalogs": 3,
+      "pages": 8,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -434,6 +434,35 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-24-Ekim-2026-Cumartesi-4.webp",
           "width": 1500,
           "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "7a108e21186371e6",
+      "store": "ŞOK",
+      "title": "ŞOK 31 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-10-31",
+      "valid_to": "2026-11-06",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-31-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-29T21:27:52",
+      "stale": false,
+      "page_count": 2,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-31-Ekim-2026-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-31-Ekim-2026-1.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-31-Ekim-2026-2.webp",
+          "width": 1500,
+          "height": 2163
         }
       ]
     },
