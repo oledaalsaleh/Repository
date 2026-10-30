@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-30T03:58:28",
+  "generated_at": "2026-10-30T20:59:53",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 9,
+      "catalogs": 4,
+      "pages": 16,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -399,6 +399,82 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/9d446e85-2e34-4377-ab45-4a7e71b5c02b.jpeg",
           "width": 940,
           "height": 1175
+        }
+      ]
+    },
+    {
+      "id": "79f23833f1b6a53d",
+      "store": "A101",
+      "title": "A101 5 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-11-05",
+      "valid_to": "2026-11-11",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-5-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-30T20:59:53",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-5-KASIM-2026-Aktuel-Katalogu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-5-KASIM-2026-Aktuel-Katalogu-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-5-KASIM-2026-Aktuel-Katalogu-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-5-KASIM-2026-Aktuel-Katalogu-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-5-KASIM-2026-Aktuel-Katalogu-4.webp",
+          "width": 1500,
+          "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "5479e50f87d3c559",
+      "store": "A101",
+      "title": "A101 31 Ekim 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-10-31",
+      "valid_to": "2026-11-06",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-31-ekim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-10-30T20:59:53",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-31-Ekim-2026-Hafta-Sonu-Katalogu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-31-Ekim-2026-Hafta-Sonu-Katalogu-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-31-Ekim-2026-Hafta-Sonu-Katalogu-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-31-Ekim-2026-Hafta-Sonu-Katalogu-3.webp",
+          "width": 1500,
+          "height": 2249
         }
       ]
     },
