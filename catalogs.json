@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-02T14:01:04",
+  "generated_at": "2026-11-03T00:42:15",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 12,
-      "pages": 33,
+      "catalogs": 11,
+      "pages": 27,
       "sources": [
         "bim_official"
       ]
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 6,
+      "catalogs": 3,
+      "pages": 10,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -140,11 +140,11 @@
       "first_seen": "2026-10-30T03:58:28",
       "stale": false,
       "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/92837934-492f-4eb5-a515-ffb8775dfb1d.jpg",
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/ce4f6cb0-ae74-4e0c-9964-dc3e59322c9f.jpg",
       "pages": [
         {
           "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/92837934-492f-4eb5-a515-ffb8775dfb1d.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ce4f6cb0-ae74-4e0c-9964-dc3e59322c9f.jpg",
           "width": 940,
           "height": 1410
         },
@@ -198,7 +198,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-03",
       "valid_to": "2026-11-09",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-26T02:15:55",
@@ -223,6 +223,29 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/f254edd3-7cde-4692-9db3-3d1bb09adea6.jpg",
           "width": 940,
           "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "1e34363f2d599b1f",
+      "store": "BİM",
+      "title": "BİM 03-30 Kasım İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-11-03",
+      "valid_to": "2026-11-30",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-03T00:42:15",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/4d4684a4-1258-4898-b56e-a7c051cd838d.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/4d4684a4-1258-4898-b56e-a7c051cd838d.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
@@ -332,41 +355,6 @@
       ]
     },
     {
-      "id": "20eb3cfd15d14a2b",
-      "store": "BİM",
-      "title": "BİM 30 Ekim-02 Kasım İndirim",
-      "kind": "indirim",
-      "valid_from": "2026-10-30",
-      "valid_to": "2026-11-02",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-30T03:58:28",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/01c304b0-b71b-46a1-9784-fedc47445e88.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/01c304b0-b71b-46a1-9784-fedc47445e88.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/aff8c722-3adc-427b-9f8d-e4e88c350f7b.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/9af2bcc3-76f1-4b7c-87c9-c304aee1c88b.jpg",
-          "width": 940,
-          "height": 1175
-        }
-      ]
-    },
-    {
       "id": "c98f9654f6b67f9d",
       "store": "BİM",
       "title": "BİM 28 Ekim Çarşamba Aktüel Ürünler",
@@ -392,47 +380,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/1bd628a1-30d4-45be-b350-babca5a0aac6.jpg",
           "width": 940,
           "height": 1175
-        }
-      ]
-    },
-    {
-      "id": "ca2a5015041e56d2",
-      "store": "BİM",
-      "title": "BİM 27 Ekim Salı Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-27",
-      "valid_to": "2026-11-02",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-19T02:11:06",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/6e85afe1-da6c-42b7-a087-b6d171e37d22.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/6e85afe1-da6c-42b7-a087-b6d171e37d22.jpg",
-          "width": 940,
-          "height": 1409
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ddfdb27b-49fa-418b-b9da-d05e2637c795.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/4fc0b4aa-a579-4726-b2b3-e37a7474e5d0.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/7d2319ee-a8a3-428a-86d3-974c10b9d50c.jpg",
-          "width": 940,
-          "height": 1410
         }
       ]
     },
@@ -556,6 +503,47 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-5.webp",
           "width": 1500,
           "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "549acc9d505bfcdc",
+      "store": "ŞOK",
+      "title": "ŞOK 4 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-11-04",
+      "valid_to": "2026-11-10",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-4-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-03T00:42:15",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-1.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-2.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-3.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-4.webp",
+          "width": 1500,
+          "height": 2163
         }
       ]
     },
