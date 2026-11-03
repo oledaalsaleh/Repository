@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-03T00:42:15",
+  "generated_at": "2026-11-04T02:21:32",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 11,
-      "pages": 27,
+      "catalogs": 10,
+      "pages": 25,
       "sources": [
         "bim_official"
       ]
@@ -27,7 +27,7 @@
       "color": "#FFC20E",
       "status": "ok",
       "catalogs": 3,
-      "pages": 10,
+      "pages": 8,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -175,7 +175,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-04",
       "valid_to": "2026-11-10",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-10-26T02:15:55",
@@ -355,35 +355,6 @@
       ]
     },
     {
-      "id": "c98f9654f6b67f9d",
-      "store": "BİM",
-      "title": "BİM 28 Ekim Çarşamba Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-10-28",
-      "valid_to": "2026-11-03",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-19T02:11:06",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/4362ba8e-9238-479e-bab8-fbcb4a82b976.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/4362ba8e-9238-479e-bab8-fbcb4a82b976.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/1bd628a1-30d4-45be-b350-babca5a0aac6.jpg",
-          "width": 940,
-          "height": 1175
-        }
-      ]
-    },
-    {
       "id": "79f23833f1b6a53d",
       "store": "A101",
       "title": "A101 5 Kasım 2026 Aktüel Ürünler Kataloğu",
@@ -507,13 +478,42 @@
       ]
     },
     {
+      "id": "21f9ca1b14044e0d",
+      "store": "ŞOK",
+      "title": "ŞOK 7 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-11-07",
+      "valid_to": "2026-11-13",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-7-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-04T02:21:32",
+      "stale": false,
+      "page_count": 2,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-1.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-2.webp",
+          "width": 1500,
+          "height": 2162
+        }
+      ]
+    },
+    {
       "id": "549acc9d505bfcdc",
       "store": "ŞOK",
       "title": "ŞOK 4 Kasım 2026 Aktüel Ürünler Kataloğu",
       "kind": "aktuel",
       "valid_from": "2026-11-04",
       "valid_to": "2026-11-10",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-4-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-03T00:42:15",
@@ -571,47 +571,6 @@
         {
           "index": 2,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-31-Ekim-2026-2.webp",
-          "width": 1500,
-          "height": 2163
-        }
-      ]
-    },
-    {
-      "id": "d9f5db3d17904d70",
-      "store": "ŞOK",
-      "title": "ŞOK 28 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-10-28",
-      "valid_to": "2026-11-03",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-28-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-26T23:29:08",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-1.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-2.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-3.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/Sok-28-Ekim-2026-Kataloyu-yeni-4.webp",
           "width": 1500,
           "height": 2163
         }
