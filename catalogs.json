@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-04T02:21:32",
+  "generated_at": "2026-11-05T02:40:01",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 12,
+      "catalogs": 2,
+      "pages": 7,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -361,7 +361,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-05",
       "valid_to": "2026-11-11",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/a101-5-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-10-30T20:59:53",
@@ -425,53 +425,6 @@
         {
           "index": 3,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-31-Ekim-2026-Hafta-Sonu-Katalogu-3.webp",
-          "width": 1500,
-          "height": 2249
-        }
-      ]
-    },
-    {
-      "id": "c3f750988508451e",
-      "store": "A101",
-      "title": "A101 29 Ekim 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-10-29",
-      "valid_to": "2026-11-04",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/a101-29-ekim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-10-23T20:05:21",
-      "stale": false,
-      "page_count": 5,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-1.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-2.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-3.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-4.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 5,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/10/A101-29-Ekim-2026-Persembe-Katalogu-5.webp",
           "width": 1500,
           "height": 2249
         }
