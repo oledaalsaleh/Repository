@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-06T02:37:45",
+  "generated_at": "2026-11-06T19:45:40",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
       "catalogs": 12,
-      "pages": 30,
+      "pages": 33,
       "sources": [
         "bim_official"
       ]
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 7,
+      "catalogs": 3,
+      "pages": 12,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -247,21 +247,39 @@
     {
       "id": "390227c4b72ed08e",
       "store": "BİM",
-      "title": "BİM 06-30 Kasım İndirim",
+      "title": "BİM 06-09 Kasım İndirim",
       "kind": "indirim",
       "valid_from": "2026-11-06",
-      "valid_to": "2026-11-30",
+      "valid_to": "2026-11-09",
       "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-06T02:37:45",
       "stale": false,
-      "page_count": 1,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/6f6f3752-9521-4a29-9e9d-f2d447d1ef48.jpg",
+      "page_count": 4,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/7aac61d4-fce7-4b74-978e-ed3d39a81c17.jpg",
       "pages": [
         {
           "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/6f6f3752-9521-4a29-9e9d-f2d447d1ef48.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/7aac61d4-fce7-4b74-978e-ed3d39a81c17.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/681bce4e-8506-4312-a10c-e0c128209ca9.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/50ed1617-e9c4-445d-98a0-35e43e4c76ba.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/5f380f58-e02f-45b4-b62a-4ef58d3fc411.jpg",
           "width": 940,
           "height": 1175
         }
@@ -415,6 +433,53 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/f3698716-d04d-434e-b634-96d0a9975659.jpg",
           "width": 940,
           "height": 1175
+        }
+      ]
+    },
+    {
+      "id": "b9584613e85feecb",
+      "store": "A101",
+      "title": "A101 12 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-11-12",
+      "valid_to": "2026-11-18",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/a101-12-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-06T19:45:40",
+      "stale": false,
+      "page_count": 5,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-1.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-2.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-3.webp",
+          "width": 1500,
+          "height": 2249
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-4.webp",
+          "width": 1500,
+          "height": 2250
+        },
+        {
+          "index": 5,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-5.webp",
+          "width": 1500,
+          "height": 2249
         }
       ]
     },
