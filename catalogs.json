@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-07T02:06:39",
+  "generated_at": "2026-11-08T03:34:25",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 12,
-      "pages": 33,
+      "catalogs": 11,
+      "pages": 29,
       "sources": [
         "bim_official"
       ]
@@ -175,7 +175,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-08",
       "valid_to": "2026-11-14",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-01T03:06:58",
@@ -392,47 +392,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/4d4684a4-1258-4898-b56e-a7c051cd838d.jpg",
           "width": 940,
           "height": 1175
-        }
-      ]
-    },
-    {
-      "id": "370510706b0fbf22",
-      "store": "BİM",
-      "title": "BİM 01 Kasım Pazar Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-01",
-      "valid_to": "2026-11-07",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-25T02:12:45",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/3dd962d6-262c-4d2a-a232-217c8d16d51d.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/3dd962d6-262c-4d2a-a232-217c8d16d51d.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/55ca4e6b-9dbb-44cb-8ce5-9eb3c8346849.jpg",
-          "width": 940,
-          "height": 1409
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/07c48ad0-5810-425f-a5af-67536f7c26ec.jpg",
-          "width": 940,
-          "height": 1409
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/dfde0989-32bc-40f9-b8a9-668664d2f297.jpg",
-          "width": 940,
-          "height": 1410
         }
       ]
     },
