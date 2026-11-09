@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-09T01:02:10",
+  "generated_at": "2026-11-09T09:23:34",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -191,9 +191,9 @@
         },
         {
           "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/cbb8b32e-ed4f-4ddc-84e4-b3e5030ce80d.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/c8fcf8b9-1bc6-4aa1-8d48-12ac7fbd9ea2.jpg",
           "width": 940,
-          "height": 1409
+          "height": 1410
         },
         {
           "index": 3,
