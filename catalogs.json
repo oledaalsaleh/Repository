@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-10T17:51:39",
+  "generated_at": "2026-11-11T00:17:18",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 11,
-      "pages": 26,
+      "catalogs": 10,
+      "pages": 25,
       "sources": [
         "bim_official"
       ]
@@ -152,7 +152,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-11",
       "valid_to": "2026-11-17",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-02T03:44:01",
@@ -332,29 +332,6 @@
       ]
     },
     {
-      "id": "505046b5fbe86e84",
-      "store": "BİM",
-      "title": "BİM 04 Kasım Çarşamba Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-04",
-      "valid_to": "2026-11-10",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-26T02:15:55",
-      "stale": false,
-      "page_count": 1,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/07f082c4-98f2-43e9-98b4-cdcbd8d14c47.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/07f082c4-98f2-43e9-98b4-cdcbd8d14c47.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
       "id": "1e34363f2d599b1f",
       "store": "BİM",
       "title": "BİM 03-30 Kasım İndirim",
@@ -495,13 +472,54 @@
       ]
     },
     {
+      "id": "92328d99ee76a411",
+      "store": "ŞOK",
+      "title": "ŞOK 18 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-11-18",
+      "valid_to": "2026-11-24",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-18-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-11T00:17:18",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-1.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-2.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-3.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-4.webp",
+          "width": 1500,
+          "height": 2162
+        }
+      ]
+    },
+    {
       "id": "ce7ff90fe1b4d786",
       "store": "ŞOK",
       "title": "ŞOK 11 Kasım 2026 Aktüel Ürünler Kataloğu",
       "kind": "aktuel",
       "valid_from": "2026-11-11",
       "valid_to": "2026-11-17",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-11-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-09T22:47:13",
@@ -561,47 +579,6 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-2.webp",
           "width": 1500,
           "height": 2162
-        }
-      ]
-    },
-    {
-      "id": "549acc9d505bfcdc",
-      "store": "ŞOK",
-      "title": "ŞOK 4 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-11-04",
-      "valid_to": "2026-11-10",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-4-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-03T00:42:15",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-1.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-2.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-3.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-4-Kasim-2026-Aktuel-Carsamba-4.webp",
-          "width": 1500,
-          "height": 2163
         }
       ]
     }
