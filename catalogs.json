@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-13T04:49:27",
+  "generated_at": "2026-11-13T13:56:32",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 4,
-      "pages": 12,
+      "catalogs": 5,
+      "pages": 14,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -567,6 +567,35 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-4.webp",
           "width": 1500,
           "height": 2162
+        }
+      ]
+    },
+    {
+      "id": "2226d61b3b2a149b",
+      "store": "ŞOK",
+      "title": "ŞOK 14 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-11-14",
+      "valid_to": "2026-11-20",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-14-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-13T13:56:32",
+      "stale": false,
+      "page_count": 2,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-1.webp",
+          "width": 1500,
+          "height": 2163
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-2.webp",
+          "width": 1500,
+          "height": 2163
         }
       ]
     },
