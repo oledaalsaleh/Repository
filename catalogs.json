@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-12T22:52:57",
+  "generated_at": "2026-11-13T04:49:27",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 10,
-      "pages": 25,
+      "catalogs": 12,
+      "pages": 31,
       "sources": [
         "bim_official"
       ]
@@ -34,6 +34,76 @@
     }
   },
   "catalogs": [
+    {
+      "id": "1fd3322ffab508ba",
+      "store": "BİM",
+      "title": "BİM 22 Kasım Pazar Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-11-22",
+      "valid_to": "2026-11-28",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-13T04:49:27",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/5087fb47-e1d9-4ce2-9128-ba95be0fbe79.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/5087fb47-e1d9-4ce2-9128-ba95be0fbe79.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/61ea4622-fecc-4a48-b009-04e9606cb1d2.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/209b485c-5ab1-4130-bd7b-a30abd3a71c0.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "dafc94c9e6bc2ea5",
+      "store": "BİM",
+      "title": "BİM 20 Kasım Cuma Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-11-20",
+      "valid_to": "2026-11-26",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-13T04:49:27",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/d2aaa6bd-335d-4259-8ef1-e6dd394c19fb.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/d2aaa6bd-335d-4259-8ef1-e6dd394c19fb.jpg",
+          "width": 940,
+          "height": 1409
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/5ef53d32-fa6b-4482-a37f-37971d62b50d.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/7ff5e43c-2a04-49a0-a1cf-3d06fcef3bf5.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
     {
       "id": "5ad1d585457e04b7",
       "store": "BİM",
@@ -111,7 +181,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-13",
       "valid_to": "2026-11-19",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-06T02:37:45",
@@ -142,6 +212,47 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/8b852d1f-ad34-4656-85a8-8deff0f59b49.jpg",
           "width": 940,
           "height": 1409
+        }
+      ]
+    },
+    {
+      "id": "eab2d88a285e406b",
+      "store": "BİM",
+      "title": "BİM 13-16 Kasım İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-11-13",
+      "valid_to": "2026-11-16",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-13T04:49:27",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/148c0805-f4ee-4307-b828-ef40647d8c7a.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/148c0805-f4ee-4307-b828-ef40647d8c7a.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/a4737181-92ac-4a79-8494-240a6cd0cdff.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/926b340e-5cc3-4113-a478-827e2e62615f.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/92eccc00-ebac-4fe8-aa5e-2da543632931.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
@@ -264,47 +375,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/6a5b62f8-418d-4dbc-b11d-14766c5eb822.jpg",
           "width": 940,
           "height": 1175
-        }
-      ]
-    },
-    {
-      "id": "f9b7ffe4af1b50ca",
-      "store": "BİM",
-      "title": "BİM 06 Kasım Cuma Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-06",
-      "valid_to": "2026-11-12",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-10-30T03:58:28",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/ce4f6cb0-ae74-4e0c-9964-dc3e59322c9f.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ce4f6cb0-ae74-4e0c-9964-dc3e59322c9f.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ea559cbd-418d-4207-a65a-ac42a217096c.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/0eb4c307-0d16-4405-8dc7-fc1ed4f62792.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/5305943a-0b29-48d7-8ed2-66f09c7cbca6.jpg",
-          "width": 940,
-          "height": 1410
         }
       ]
     },
