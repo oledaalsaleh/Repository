@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-14T20:59:24",
+  "generated_at": "2026-11-15T01:22:32",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 12,
-      "pages": 31,
+      "catalogs": 11,
+      "pages": 28,
       "sources": [
         "bim_official"
       ]
@@ -146,7 +146,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-15",
       "valid_to": "2026-11-21",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-06T02:37:45",
@@ -338,41 +338,6 @@
         {
           "index": 3,
           "url": "https://cdn1.bim.com.tr/uploads/afisler/4f295aab-25f7-4135-95c6-4e927b895d64.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
-      "id": "551df2c3198d75d2",
-      "store": "BİM",
-      "title": "BİM 08 Kasım Pazar Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-08",
-      "valid_to": "2026-11-14",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-01T03:06:58",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/273f4833-e518-4c50-8e17-747af92265ae.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/273f4833-e518-4c50-8e17-747af92265ae.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/1472de67-a087-4aae-9848-5852aadf3eaa.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/7b50978b-33f7-481d-94b5-a089835723c9.jpg",
           "width": 940,
           "height": 1410
         }
