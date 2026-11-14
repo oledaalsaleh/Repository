@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-13T22:40:04",
+  "generated_at": "2026-11-14T04:26:51",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 4,
-      "pages": 14,
+      "catalogs": 3,
+      "pages": 12,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 5,
-      "pages": 14,
+      "catalogs": 4,
+      "pages": 12,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -171,6 +171,35 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/2b046666-660d-4414-ac85-50a976587089.jpg",
           "width": 940,
           "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "3711ebc9a187b9e5",
+      "store": "BİM",
+      "title": "BİM 14-20 Kasım İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-11-14",
+      "valid_to": "2026-11-20",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-14T04:26:51",
+      "stale": false,
+      "page_count": 2,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/ce242773-4d19-4598-b30d-95b83bac3683.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ce242773-4d19-4598-b30d-95b83bac3683.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/9f47e84b-d7c0-4c3e-961b-b42b9ef8d8f7.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
@@ -350,35 +379,6 @@
       ]
     },
     {
-      "id": "b5adc85f33a256e5",
-      "store": "BİM",
-      "title": "BİM 07-13 Kasım İndirim",
-      "kind": "indirim",
-      "valid_from": "2026-11-07",
-      "valid_to": "2026-11-13",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-07T02:06:39",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/a70177ad-bdfb-4769-9086-8437ba680cad.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/a70177ad-bdfb-4769-9086-8437ba680cad.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/6a5b62f8-418d-4dbc-b11d-14766c5eb822.jpg",
-          "width": 940,
-          "height": 1175
-        }
-      ]
-    },
-    {
       "id": "390227c4b72ed08e",
       "store": "BİM",
       "title": "BİM 06-30 Kasım İndirim",
@@ -472,7 +472,7 @@
       "kind": "hafta_sonu",
       "valid_from": "2026-11-14",
       "valid_to": "2026-11-20",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/a101-14-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-13T22:40:04",
@@ -542,35 +542,6 @@
         {
           "index": 5,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-12-Kasim-2026-Aktuel-Katalog-comcom-5.webp",
-          "width": 1500,
-          "height": 2249
-        }
-      ]
-    },
-    {
-      "id": "6e8de3f74c0954a3",
-      "store": "A101",
-      "title": "A101 7 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "hafta_sonu",
-      "valid_from": "2026-11-07",
-      "valid_to": "2026-11-13",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/a101-7-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-07T02:06:39",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-7-Kasim-2026-Hafta-Sonu-aktuel-urunler-com-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-7-Kasim-2026-Hafta-Sonu-aktuel-urunler-com-1.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-7-Kasim-2026-Hafta-Sonu-aktuel-urunler-com-2.webp",
           "width": 1500,
           "height": 2249
         }
@@ -653,7 +624,7 @@
       "kind": "hafta_sonu",
       "valid_from": "2026-11-14",
       "valid_to": "2026-11-20",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-14-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-13T13:56:32",
@@ -713,35 +684,6 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-11-Kasim-2026-Aktuel-Katalog-4.webp",
           "width": 1500,
           "height": 2163
-        }
-      ]
-    },
-    {
-      "id": "21f9ca1b14044e0d",
-      "store": "ŞOK",
-      "title": "ŞOK 7 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "hafta_sonu",
-      "valid_from": "2026-11-07",
-      "valid_to": "2026-11-13",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-7-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-04T02:21:32",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-1.webp",
-          "width": 1500,
-          "height": 2162
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-7-Kasim-Hafta-Sonu-2.webp",
-          "width": 1500,
-          "height": 2162
         }
       ]
     }
