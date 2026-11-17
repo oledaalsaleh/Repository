@@ -1,14 +1,15 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-16T01:48:06",
+  "generated_at": "2026-11-17T06:51:36",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
       "catalogs": 13,
-      "pages": 32,
+      "pages": 27,
       "sources": [
+        "aktuel_urunler_rss",
         "bim_official"
       ]
     },
@@ -169,7 +170,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-17",
       "valid_to": "2026-11-23",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-09T01:02:10",
@@ -194,6 +195,29 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/cd829434-3bd5-4f44-a70b-c90ae8383855.jpg",
           "width": 940,
           "height": 1409
+        }
+      ]
+    },
+    {
+      "id": "e546c7e19e45888a",
+      "store": "BİM",
+      "title": "Çocuklara yılbaşı hediyesi: A101, ŞOK ve BİM’de bu hafta 500TL altındaki oyuncaklar",
+      "kind": "aktuel",
+      "valid_from": "2026-11-16",
+      "valid_to": "2026-11-22",
+      "status": "active",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/haberler/cocuklara-yilbasi-hediyesi-a101-sok-ve-bimde-bu-hafta-500tl-altindaki-oyuncaklar/",
+      "first_seen": "2026-11-17T06:51:36",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/oyuncak-infografik-bim-a101-sok-kasim-2026.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/oyuncak-infografik-bim-a101-sok-kasim-2026.webp",
+          "width": 1080,
+          "height": 1350
         }
       ]
     },
@@ -305,39 +329,21 @@
     {
       "id": "eab2d88a285e406b",
       "store": "BİM",
-      "title": "BİM 13-16 Kasım İndirim",
+      "title": "BİM 13-19 Kasım İndirim",
       "kind": "indirim",
       "valid_from": "2026-11-13",
-      "valid_to": "2026-11-16",
+      "valid_to": "2026-11-19",
       "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-13T04:49:27",
       "stale": false,
-      "page_count": 4,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/148c0805-f4ee-4307-b828-ef40647d8c7a.jpg",
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/2237eab2-d8a3-42f4-9021-76afb71e2edf.jpg",
       "pages": [
         {
           "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/148c0805-f4ee-4307-b828-ef40647d8c7a.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/a4737181-92ac-4a79-8494-240a6cd0cdff.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/926b340e-5cc3-4113-a478-827e2e62615f.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/92eccc00-ebac-4fe8-aa5e-2da543632931.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/2237eab2-d8a3-42f4-9021-76afb71e2edf.jpg",
           "width": 940,
           "height": 1175
         }
@@ -361,41 +367,6 @@
         {
           "index": 1,
           "url": "https://cdn1.bim.com.tr/uploads/afisler/9558cf37-01ce-47fa-92bd-d380ebdd18b9.jpg",
-          "width": 940,
-          "height": 1410
-        }
-      ]
-    },
-    {
-      "id": "62747c1afb08dbb5",
-      "store": "BİM",
-      "title": "BİM 10 Kasım Salı Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-10",
-      "valid_to": "2026-11-16",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-02T03:44:01",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/dd281649-1f2d-48cb-aca5-8b03345f58d2.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/dd281649-1f2d-48cb-aca5-8b03345f58d2.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/c8fcf8b9-1bc6-4aa1-8d48-12ac7fbd9ea2.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/4f295aab-25f7-4135-95c6-4e927b895d64.jpg",
           "width": 940,
           "height": 1410
         }
