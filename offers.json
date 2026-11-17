@@ -170,6 +170,23 @@
     "height": 1410
   },
   {
+    "id": "7c27d46cd55b77da",
+    "catalog_id": "f8129f9d079092f2",
+    "store": "BİM",
+    "title": "BİM 18 Kasım Çarşamba Aktüel Ürünler - Sayfa 1",
+    "image_url": "https://cdn1.bim.com.tr/uploads/afisler/2c08a7dc-ff1d-4e01-93f2-9754d6395362.jpg",
+    "page": 1,
+    "page_count": 1,
+    "kind": "aktuel",
+    "valid_from": "2026-11-18",
+    "valid_to": "2026-11-24",
+    "valid_date": "24.11.2026",
+    "created_at": "2026-11-18 00:00:00",
+    "source": "bim_official",
+    "width": 940,
+    "height": 1409
+  },
+  {
     "id": "3c2a64f2a0b32a4f",
     "catalog_id": "5ad1d585457e04b7",
     "store": "BİM",
@@ -389,23 +406,6 @@
     "source": "bim_official",
     "width": 940,
     "height": 1409
-  },
-  {
-    "id": "350b7e4c97788bc6",
-    "catalog_id": "eab2d88a285e406b",
-    "store": "BİM",
-    "title": "BİM 13-19 Kasım İndirim - Sayfa 1",
-    "image_url": "https://cdn1.bim.com.tr/uploads/afisler/2237eab2-d8a3-42f4-9021-76afb71e2edf.jpg",
-    "page": 1,
-    "page_count": 1,
-    "kind": "indirim",
-    "valid_from": "2026-11-13",
-    "valid_to": "2026-11-19",
-    "valid_date": "19.11.2026",
-    "created_at": "2026-11-13 04:49:27",
-    "source": "bim_official",
-    "width": 940,
-    "height": 1175
   },
   {
     "id": "62e4e351c1bdb24b",

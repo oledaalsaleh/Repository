@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-17T06:51:36",
+  "generated_at": "2026-11-17T18:58:12",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -164,6 +164,29 @@
       ]
     },
     {
+      "id": "f8129f9d079092f2",
+      "store": "BİM",
+      "title": "BİM 18 Kasım Çarşamba Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-11-18",
+      "valid_to": "2026-11-24",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-17T18:58:12",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/2c08a7dc-ff1d-4e01-93f2-9754d6395362.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/2c08a7dc-ff1d-4e01-93f2-9754d6395362.jpg",
+          "width": 940,
+          "height": 1409
+        }
+      ]
+    },
+    {
       "id": "5ad1d585457e04b7",
       "store": "BİM",
       "title": "BİM 17 Kasım Salı Aktüel Ürünler",
@@ -323,29 +346,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/8b852d1f-ad34-4656-85a8-8deff0f59b49.jpg",
           "width": 940,
           "height": 1409
-        }
-      ]
-    },
-    {
-      "id": "eab2d88a285e406b",
-      "store": "BİM",
-      "title": "BİM 13-19 Kasım İndirim",
-      "kind": "indirim",
-      "valid_from": "2026-11-13",
-      "valid_to": "2026-11-19",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-13T04:49:27",
-      "stale": false,
-      "page_count": 1,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/2237eab2-d8a3-42f4-9021-76afb71e2edf.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/2237eab2-d8a3-42f4-9021-76afb71e2edf.jpg",
-          "width": 940,
-          "height": 1175
         }
       ]
     },
