@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-17T18:58:12",
+  "generated_at": "2026-11-18T03:56:23",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 13,
-      "pages": 27,
+      "catalogs": 12,
+      "pages": 26,
       "sources": [
         "aktuel_urunler_rss",
         "bim_official"
@@ -27,8 +27,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 4,
-      "pages": 12,
+      "catalogs": 3,
+      "pages": 8,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -170,7 +170,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-18",
       "valid_to": "2026-11-24",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-17T18:58:12",
@@ -346,29 +346,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/8b852d1f-ad34-4656-85a8-8deff0f59b49.jpg",
           "width": 940,
           "height": 1409
-        }
-      ]
-    },
-    {
-      "id": "5b8ba5c54ce25bc5",
-      "store": "BİM",
-      "title": "BİM 11 Kasım Çarşamba Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-11",
-      "valid_to": "2026-11-17",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-02T03:44:01",
-      "stale": false,
-      "page_count": 1,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/9558cf37-01ce-47fa-92bd-d380ebdd18b9.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/9558cf37-01ce-47fa-92bd-d380ebdd18b9.jpg",
-          "width": 940,
-          "height": 1410
         }
       ]
     },
@@ -577,7 +554,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-18",
       "valid_to": "2026-11-24",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-18-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-11T00:17:18",
@@ -635,47 +612,6 @@
         {
           "index": 2,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-2.webp",
-          "width": 1500,
-          "height": 2163
-        }
-      ]
-    },
-    {
-      "id": "ce7ff90fe1b4d786",
-      "store": "ŞOK",
-      "title": "ŞOK 11 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-11-11",
-      "valid_to": "2026-11-17",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-11-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-09T22:47:13",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-11-Kasim-2026-Aktuel-Katalog-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-11-Kasim-2026-Aktuel-Katalog-1.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-11-Kasim-2026-Aktuel-Katalog-2.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-11-Kasim-2026-Aktuel-Katalog-3.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-11-Kasim-2026-Aktuel-Katalog-4.webp",
           "width": 1500,
           "height": 2163
         }
