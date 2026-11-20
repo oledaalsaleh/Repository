@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-20T05:18:11",
+  "generated_at": "2026-11-20T14:35:51",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 12,
-      "pages": 27,
+      "catalogs": 14,
+      "pages": 38,
       "sources": [
         "aktuel_urunler_rss",
         "bim_official"
@@ -35,6 +35,41 @@
     }
   },
   "catalogs": [
+    {
+      "id": "f59a31f031bdf9b3",
+      "store": "BİM",
+      "title": "BİM 29 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-11-29",
+      "valid_to": "2026-12-05",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/bim-29-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-20T14:35:51",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Bim-29-Kasim-2026-ilk-kataloglar-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Bim-29-Kasim-2026-ilk-kataloglar-1.webp",
+          "width": 1500,
+          "height": 2250
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Bim-29-Kasim-2026-ilk-kataloglar-2.webp",
+          "width": 1500,
+          "height": 2250
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Bim-29-Kasim-2026-ilk-kataloglar-3.webp",
+          "width": 1500,
+          "height": 2250
+        }
+      ]
+    },
     {
       "id": "1dce70ba3ae03a05",
       "store": "BİM",
@@ -207,6 +242,71 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/f25ebd1d-c8ca-4df9-9951-7a6adeafd8da.jpg",
           "width": 940,
           "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "1dfb6a399d031080",
+      "store": "BİM",
+      "title": "BİM 20-23 Kasım İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-11-20",
+      "valid_to": "2026-11-23",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-20T14:35:51",
+      "stale": false,
+      "page_count": 8,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/976f834c-492b-43c2-a770-148fb1c6f693.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/976f834c-492b-43c2-a770-148fb1c6f693.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/64c5e5b1-ce9c-4d58-b3a8-fea74e4cb914.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/4d0eb755-ae66-405a-ab3e-1846193ee1a4.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/54dfb3eb-4afc-4826-b334-752d54b4adab.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 5,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/4ca5ed91-d7a0-4f6b-93e0-793e37fae1fd.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 6,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/bd6411f8-a598-464c-abbf-f1fa3631ebfd.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 7,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/ab7ce3a1-e186-485f-be42-8ea4ebcb67ce.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 8,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/45d557cf-f4de-446d-9dc1-690064deb8ed.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
