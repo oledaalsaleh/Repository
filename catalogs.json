@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-20T23:14:11",
+  "generated_at": "2026-11-21T05:12:31",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
       "catalogs": 14,
-      "pages": 38,
+      "pages": 37,
       "sources": [
         "aktuel_urunler_rss",
         "bim_official"
@@ -17,8 +17,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 4,
-      "pages": 15,
+      "catalogs": 3,
+      "pages": 12,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -27,8 +27,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 8,
+      "catalogs": 2,
+      "pages": 6,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -201,6 +201,29 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/209b485c-5ab1-4130-bd7b-a30abd3a71c0.jpg",
           "width": 940,
           "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "c159fb228de4bd31",
+      "store": "BİM",
+      "title": "BİM 21-27 Kasım İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-11-21",
+      "valid_to": "2026-11-27",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-21T05:12:30",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/d9bcaf4f-766e-4615-b359-9cd32c80ebc0.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/d9bcaf4f-766e-4615-b359-9cd32c80ebc0.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
@@ -427,35 +450,6 @@
       ]
     },
     {
-      "id": "3711ebc9a187b9e5",
-      "store": "BİM",
-      "title": "BİM 14-20 Kasım İndirim",
-      "kind": "indirim",
-      "valid_from": "2026-11-14",
-      "valid_to": "2026-11-20",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-14T04:26:51",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/ce242773-4d19-4598-b30d-95b83bac3683.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ce242773-4d19-4598-b30d-95b83bac3683.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/4d0ac1e2-1fd9-4a0d-8fa7-26e3a5cb37ef.jpeg",
-          "width": 940,
-          "height": 1175
-        }
-      ]
-    },
-    {
       "id": "390227c4b72ed08e",
       "store": "BİM",
       "title": "BİM 06-30 Kasım İndirim",
@@ -549,7 +543,7 @@
       "kind": "hafta_sonu",
       "valid_from": "2026-11-21",
       "valid_to": "2026-11-27",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/a101-21-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-20T23:14:11",
@@ -625,48 +619,13 @@
       ]
     },
     {
-      "id": "8dc528472b38c52c",
-      "store": "A101",
-      "title": "A101 14 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "hafta_sonu",
-      "valid_from": "2026-11-14",
-      "valid_to": "2026-11-20",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/a101-14-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-13T22:40:04",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-14-Kasim-2026-Hafta-Sonunda-Ne-Var-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-14-Kasim-2026-Hafta-Sonunda-Ne-Var-1.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-14-Kasim-2026-Hafta-Sonunda-Ne-Var-2.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-14-Kasim-2026-Hafta-Sonunda-Ne-Var-3.webp",
-          "width": 1500,
-          "height": 2249
-        }
-      ]
-    },
-    {
       "id": "ef5ae03c7a359cd3",
       "store": "ŞOK",
       "title": "ŞOK 21 Kasım 2026 Aktüel Ürünler Kataloğu",
       "kind": "hafta_sonu",
       "valid_from": "2026-11-21",
       "valid_to": "2026-11-27",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/sok-21-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-12T22:52:57",
@@ -726,35 +685,6 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-18-Kasim-2026-Aktuel-Erken-Katalogu-4.webp",
           "width": 1500,
           "height": 2162
-        }
-      ]
-    },
-    {
-      "id": "2226d61b3b2a149b",
-      "store": "ŞOK",
-      "title": "ŞOK 14 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "hafta_sonu",
-      "valid_from": "2026-11-14",
-      "valid_to": "2026-11-20",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/sok-14-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-13T13:56:32",
-      "stale": false,
-      "page_count": 2,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-1.webp",
-          "width": 1500,
-          "height": 2163
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-14-Kasim-2026-Oporjinal-Ayipsin-2.webp",
-          "width": 1500,
-          "height": 2163
         }
       ]
     }
