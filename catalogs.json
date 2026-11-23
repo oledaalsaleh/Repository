@@ -1,15 +1,14 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-22T04:17:08",
+  "generated_at": "2026-11-23T04:40:32",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 13,
-      "pages": 34,
+      "catalogs": 14,
+      "pages": 37,
       "sources": [
-        "aktuel_urunler_rss",
         "bim_official"
       ]
     },
@@ -35,6 +34,64 @@
     }
   },
   "catalogs": [
+    {
+      "id": "32fc61e45f623bf6",
+      "store": "BİM",
+      "title": "BİM 02 Aralık Çarşamba Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-12-02",
+      "valid_to": "2026-12-08",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-23T04:40:32",
+      "stale": false,
+      "page_count": 1,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/e1accffc-4978-4e84-b438-cb29a9692fbf.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/e1accffc-4978-4e84-b438-cb29a9692fbf.jpg",
+          "width": 940,
+          "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "c96779e403553444",
+      "store": "BİM",
+      "title": "BİM 01 Aralık Salı Aktüel Ürünler",
+      "kind": "aktuel",
+      "valid_from": "2026-12-01",
+      "valid_to": "2026-12-07",
+      "status": "upcoming",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-23T04:40:32",
+      "stale": false,
+      "page_count": 3,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/e49bf59b-503e-4db0-a367-204f83a8273e.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/e49bf59b-503e-4db0-a367-204f83a8273e.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/196dc080-2ee9-4a50-8e6c-7555f6d11b9d.jpg",
+          "width": 940,
+          "height": 1410
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/1a8514d5-2a51-443d-bdbf-13ed03aa0fab.png",
+          "width": 940,
+          "height": 1408
+        }
+      ]
+    },
     {
       "id": "f59a31f031bdf9b3",
       "store": "BİM",
@@ -388,29 +445,6 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/cd829434-3bd5-4f44-a70b-c90ae8383855.jpg",
           "width": 940,
           "height": 1409
-        }
-      ]
-    },
-    {
-      "id": "e546c7e19e45888a",
-      "store": "BİM",
-      "title": "Çocuklara yılbaşı hediyesi: A101, ŞOK ve BİM’de bu hafta 500TL altındaki oyuncaklar",
-      "kind": "aktuel",
-      "valid_from": "2026-11-16",
-      "valid_to": "2026-11-22",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/haberler/cocuklara-yilbasi-hediyesi-a101-sok-ve-bimde-bu-hafta-500tl-altindaki-oyuncaklar/",
-      "first_seen": "2026-11-17T06:51:36",
-      "stale": false,
-      "page_count": 1,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/oyuncak-infografik-bim-a101-sok-kasim-2026.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/oyuncak-infografik-bim-a101-sok-kasim-2026.webp",
-          "width": 1080,
-          "height": 1350
         }
       ]
     },
