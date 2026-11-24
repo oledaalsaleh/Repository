@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-23T15:33:45",
+  "generated_at": "2026-11-24T05:12:15",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 14,
-      "pages": 37,
+      "catalogs": 13,
+      "pages": 28,
       "sources": [
         "bim_official"
       ]
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 2,
-      "pages": 6,
+      "catalogs": 3,
+      "pages": 10,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -86,9 +86,9 @@
         },
         {
           "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/1a8514d5-2a51-443d-bdbf-13ed03aa0fab.png",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/675bad98-8e6f-4b55-8414-4611f29039b7.jpg",
           "width": 940,
-          "height": 1408
+          "height": 1410
         }
       ]
     },
@@ -162,7 +162,7 @@
         },
         {
           "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/30954460-0c79-4545-9bb1-99ea4c66da08.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/e2dd2c1f-2564-4433-b6a1-002437fd1216.jpg",
           "width": 940,
           "height": 1410
         }
@@ -198,7 +198,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-24",
       "valid_to": "2026-11-30",
-      "status": "upcoming",
+      "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-16T01:48:06",
@@ -328,63 +328,27 @@
     {
       "id": "1dfb6a399d031080",
       "store": "BİM",
-      "title": "BİM 20-23 Kasım İndirim",
+      "title": "BİM 20 Kasım-20 Aralık İndirim",
       "kind": "indirim",
       "valid_from": "2026-11-20",
-      "valid_to": "2026-11-23",
+      "valid_to": "2026-12-20",
       "status": "active",
       "source": "bim_official",
       "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
       "first_seen": "2026-11-20T14:35:51",
       "stale": false,
-      "page_count": 8,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/f02d0ad0-1b72-46c3-b054-0767d474c983.jpg",
+      "page_count": 2,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/2599de21-30ce-4fbb-a0ac-53e5f1cec607.jpg",
       "pages": [
         {
           "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/f02d0ad0-1b72-46c3-b054-0767d474c983.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/2599de21-30ce-4fbb-a0ac-53e5f1cec607.jpg",
           "width": 940,
-          "height": 1175
+          "height": 1170
         },
         {
           "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/64c5e5b1-ce9c-4d58-b3a8-fea74e4cb914.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/4d0eb755-ae66-405a-ab3e-1846193ee1a4.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 4,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/54dfb3eb-4afc-4826-b334-752d54b4adab.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 5,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/4ca5ed91-d7a0-4f6b-93e0-793e37fae1fd.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 6,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/bd6411f8-a598-464c-abbf-f1fa3631ebfd.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 7,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/ab7ce3a1-e186-485f-be42-8ea4ebcb67ce.jpg",
-          "width": 940,
-          "height": 1175
-        },
-        {
-          "index": 8,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/45d557cf-f4de-446d-9dc1-690064deb8ed.jpg",
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/f8a78218-6cb7-4b32-92e7-22351c2bfb2d.jpg",
           "width": 940,
           "height": 1175
         }
@@ -408,41 +372,6 @@
         {
           "index": 1,
           "url": "https://cdn1.bim.com.tr/uploads/afisler/2c08a7dc-ff1d-4e01-93f2-9754d6395362.jpg",
-          "width": 940,
-          "height": 1409
-        }
-      ]
-    },
-    {
-      "id": "5ad1d585457e04b7",
-      "store": "BİM",
-      "title": "BİM 17 Kasım Salı Aktüel Ürünler",
-      "kind": "aktuel",
-      "valid_from": "2026-11-17",
-      "valid_to": "2026-11-23",
-      "status": "active",
-      "source": "bim_official",
-      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
-      "first_seen": "2026-11-09T01:02:10",
-      "stale": false,
-      "page_count": 3,
-      "cover": "https://cdn1.bim.com.tr/uploads/afisler/bba693be-e42e-4bf5-9b98-f25463137b58.jpg",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/bba693be-e42e-4bf5-9b98-f25463137b58.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 2,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/55c0a5f3-99c7-48d4-9a18-c043dba334f5.jpg",
-          "width": 940,
-          "height": 1410
-        },
-        {
-          "index": 3,
-          "url": "https://cdn1.bim.com.tr/uploads/afisler/cd829434-3bd5-4f44-a70b-c90ae8383855.jpg",
           "width": 940,
           "height": 1409
         }
@@ -614,6 +543,47 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-4.webp",
           "width": 1500,
           "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "ea40f766b0ff59b6",
+      "store": "ŞOK",
+      "title": "ŞOK 25 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "aktuel",
+      "valid_from": "2026-11-25",
+      "valid_to": "2026-12-01",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-25-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-24T05:12:15",
+      "stale": false,
+      "page_count": 4,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-25-Kasim-2026-Orijinal-Aktuel-Katalog-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-25-Kasim-2026-Orijinal-Aktuel-Katalog-1.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-25-Kasim-2026-Orijinal-Aktuel-Katalog-2.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 3,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-25-Kasim-2026-Orijinal-Aktuel-Katalog-3.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 4,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-25-Kasim-2026-Orijinal-Aktuel-Katalog-4.webp",
+          "width": 1500,
+          "height": 2162
         }
       ]
     },
