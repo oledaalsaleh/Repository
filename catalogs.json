@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-24T05:12:15",
+  "generated_at": "2026-11-24T16:40:02",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -26,8 +26,8 @@
       "slug": "sok",
       "color": "#FFC20E",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 10,
+      "catalogs": 4,
+      "pages": 12,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -543,6 +543,35 @@
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-4.webp",
           "width": 1500,
           "height": 2249
+        }
+      ]
+    },
+    {
+      "id": "e43032b24f5f1a55",
+      "store": "ŞOK",
+      "title": "ŞOK 28 Kasım 2026 Aktüel Ürünler Kataloğu",
+      "kind": "hafta_sonu",
+      "valid_from": "2026-11-28",
+      "valid_to": "2026-12-04",
+      "status": "upcoming",
+      "source": "aktuel_urunler_rss",
+      "source_url": "https://aktuel-urunler.com/sok-28-kasim-2026-aktuel-urunler-katalogu/",
+      "first_seen": "2026-11-24T16:40:02",
+      "stale": false,
+      "page_count": 2,
+      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-28-Kasim-2026-Hafta-Sonu-Katalog-1.webp",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-28-Kasim-2026-Hafta-Sonu-Katalog-1.webp",
+          "width": 1500,
+          "height": 2162
+        },
+        {
+          "index": 2,
+          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/Sok-28-Kasim-2026-Hafta-Sonu-Katalog-2.webp",
+          "width": 1500,
+          "height": 2162
         }
       ]
     },
