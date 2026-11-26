@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-25T02:53:15",
+  "generated_at": "2026-11-26T06:32:50",
   "stores": {
     "BİM": {
       "slug": "bim",
@@ -16,8 +16,8 @@
       "slug": "a101",
       "color": "#00A0E3",
       "status": "ok",
-      "catalogs": 3,
-      "pages": 12,
+      "catalogs": 2,
+      "pages": 8,
       "sources": [
         "aktuel_urunler_rss"
       ]
@@ -407,7 +407,7 @@
       "kind": "aktuel",
       "valid_from": "2026-11-26",
       "valid_to": "2026-12-02",
-      "status": "upcoming",
+      "status": "active",
       "source": "aktuel_urunler_rss",
       "source_url": "https://aktuel-urunler.com/a101-26-kasim-2026-aktuel-urunler-katalogu/",
       "first_seen": "2026-11-20T23:14:11",
@@ -477,47 +477,6 @@
         {
           "index": 4,
           "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-Aktuel-21-Kasim-2026-Hafta-Sonu-Katalogu-4.webp",
-          "width": 1500,
-          "height": 2249
-        }
-      ]
-    },
-    {
-      "id": "bf5b2bf63b7da4af",
-      "store": "A101",
-      "title": "A101 19 Kasım 2026 Aktüel Ürünler Kataloğu",
-      "kind": "aktuel",
-      "valid_from": "2026-11-19",
-      "valid_to": "2026-11-25",
-      "status": "active",
-      "source": "aktuel_urunler_rss",
-      "source_url": "https://aktuel-urunler.com/a101-19-kasim-2026-aktuel-urunler-katalogu/",
-      "first_seen": "2026-11-13T22:40:04",
-      "stale": false,
-      "page_count": 4,
-      "cover": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-1.webp",
-      "pages": [
-        {
-          "index": 1,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-1.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 2,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-2.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 3,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-3.webp",
-          "width": 1500,
-          "height": 2249
-        },
-        {
-          "index": 4,
-          "url": "https://aktuel-urunler.com/wp-diger/uploads/2026/11/A101-19-Kasim-2026-Aktuel-urunler-com-4.webp",
           "width": 1500,
           "height": 2249
         }
