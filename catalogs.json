@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-27T04:43:58",
+  "generated_at": "2026-11-27T15:14:52",
   "stores": {
     "BİM": {
       "slug": "bim",
       "color": "#E30613",
       "status": "ok",
-      "catalogs": 12,
-      "pages": 26,
+      "catalogs": 13,
+      "pages": 31,
       "sources": [
         "bim_official"
       ]
@@ -200,6 +200,53 @@
           "url": "https://cdn1.bim.com.tr/uploads/afisler/e2dd2c1f-2564-4433-b6a1-002437fd1216.jpg",
           "width": 940,
           "height": 1410
+        }
+      ]
+    },
+    {
+      "id": "a33e42e267ded7d7",
+      "store": "BİM",
+      "title": "BİM 27-30 Kasım İndirim",
+      "kind": "indirim",
+      "valid_from": "2026-11-27",
+      "valid_to": "2026-11-30",
+      "status": "active",
+      "source": "bim_official",
+      "source_url": "https://www.bim.com.tr/Categories/680/afisler.aspx",
+      "first_seen": "2026-11-27T15:14:52",
+      "stale": false,
+      "page_count": 5,
+      "cover": "https://cdn1.bim.com.tr/uploads/afisler/67256f8d-b54a-4ee0-85f9-2dc89787eee6.jpg",
+      "pages": [
+        {
+          "index": 1,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/67256f8d-b54a-4ee0-85f9-2dc89787eee6.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 2,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/7df6a3dd-ff45-4c17-a242-26bc4a89e927.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 3,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/8f07eb1e-0020-40b6-9671-208043e570ec.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 4,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/b69377f1-50a3-4e2f-a0dd-eaf2e9f28dc5.jpg",
+          "width": 940,
+          "height": 1175
+        },
+        {
+          "index": 5,
+          "url": "https://cdn1.bim.com.tr/uploads/afisler/57e5b4f8-9877-40e4-af19-8596749ad9b3.jpg",
+          "width": 940,
+          "height": 1175
         }
       ]
     },
